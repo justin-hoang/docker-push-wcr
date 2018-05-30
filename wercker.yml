@@ -1,0 +1,12 @@
+box: ubuntu
+
+build:
+  steps:
+    - script:
+      code: | 
+        echo "do something"
+    - internal/docker-push:
+      username: $REPO_USERNAME
+      password: $REPO_PASSWORD
+      image-name: dam-wcr-test
+      tag: latest
