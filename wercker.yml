@@ -8,5 +8,3 @@ build:
     - internal/docker-push:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
-      image-name: dam-wcr-test
-      tag: latest
