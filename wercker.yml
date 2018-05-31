@@ -8,3 +8,4 @@ build:
     - internal/docker-push:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
+      registry: https://iad.ocir.io/v2/
